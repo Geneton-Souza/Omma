@@ -1,0 +1,442 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header,
+
+header {
+
+    background-color: #FFC107;
+    height: 117px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+nav {
+
+    height: 48px;
+    background-color:#FFA000;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav > a {
+
+    color: #fdfdfd;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+    margin: 0px 28px;
+}
+
+
+#hero-header{
+
+    background: linear-gradient( 0deg,
+        rgba(255, 160, 0, 0.3),
+        rgba(255, 160, 0, 0.3)),
+    url(../image/principal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:638px;
+}
+
+#hero-header h2 {
+
+    color: #fdfdfd;
+    font-size: 70px;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+    float: right;
+    margin: 150px 200px 50px 50px;
+
+}
+
+.semana {
+
+    padding: 100px 0;
+    text-align: center;
+}
+
+.semana h2 {
+
+    color: #FFA000;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.semana article {
+
+    display: inline-block;
+    padding: 30px;
+}
+
+.semana h3 {
+
+    font-size: 26px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.semana a {
+
+    background-color: #176902;
+    color: #fdfdfd;
+    padding: 10px 20px;
+    margin: 20px 0;
+    display: inline-block;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hero-footer {
+
+    background: linear-gradient( 0deg,
+        rgba(255, 160, 0, 0.3),
+        rgba(255, 160, 0, 0.3)),
+    url(../image/image\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:772px;
+    color: #fdfdfd;
+    padding: 150px;
+}
+
+.hero-footer h2 {
+
+    font-size: 65px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.hero-footer p {
+
+    font-size: 24px;
+    font-weight: 500;
+    width: 450px;
+    margin: 15px 0;
+}
+
+footer {
+
+    background-color: #FFC107;
+    color: #fdfdfd;
+    padding: 30px;
+}
+footer img {
+
+    vertical-align: middle;
+}
+
+footer span {
+
+    margin: 120px;
+    
+}
+
+#main-internal {
+
+    margin-top: 107px;
+    padding: 0 120px 100px;
+    display: flex;
+    justify-content:space-between;
+}
+
+#main-internal article {
+
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#main-internal article h1 {
+
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFA000;
+    margin-bottom: 28px;
+}
+
+#main-internal article img {
+
+    margin-bottom: 25px;
+    width: 592;
+    height: 311px;
+}
+
+.tags {
+
+    margin-bottom: 58px;
+}
+
+.tags span {
+
+    color: #176902;
+    font-size: 18px;
+    border: 1px solid #176902;
+    padding: 7px 25px;
+    border-radius: 47px;
+    margin-right: 19px;
+
+}
+
+#main-internal article p {
+
+    max-width: 590px;
+    
+}
+
+ul li {
+
+    margin-left: 20px;
+
+}
+
+.sub-titulo {
+
+    font-weight: bold;
+}
+
+#main-internal article iframe {
+
+    margin-top: 37px;
+    margin-bottom: 35px;
+}
+
+.receitas-relacionadas article {
+    width: 345;
+    height: 342;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-bottom: 55px;
+
+
+}
+.titulo-direita {
+
+    font-weight: 500;
+    font-size: 30px;
+    color: #FFA000;
+    margin-top: 70px;
+    
+}
+.receitas-relacionadas article h3 {
+
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+    color:#000000;
+    
+}
+
+.receitas-relacionadas a {
+
+    text-decoration: none;
+}
+
+.foto-contato {
+
+    height: 405px;
+    border: 1px solid #000000;
+    background: 
+    url(../image/image\ 1\ cont.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+   
+}
+
+.foto-contato h1 {
+
+    font-size: 70px;
+    font-weight: 700;
+    color: #fdfdfd;
+    margin-top: 80px;
+    margin-left: 122px;
+    width: 419px;
+    height: 170px;
+}
+
+#contato {
+
+    margin: 97px 127px 133px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#contato form {
+
+    flex-grow: 2;
+    margin-left: 15px;
+    border: 1px solid #FFA000;
+    border-radius: 20px;
+    padding: 66px 33px;
+    display: flex;
+    flex-direction: column;
+}
+
+#contato h2 {
+
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 67px;
+    color: #FFC107;
+}
+
+#contato form input {
+
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 7px 34px;
+    margin-bottom: 23px;
+}
+
+#contato form textarea {
+
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+    padding: 7px 34px;
+    font-size: 16px;
+}
+
+#contato form button {
+
+    background-color: #FFA000;
+    color: #fdfdfd;
+    width: 164px;
+    height: 48px;
+    margin-top: 20px;
+    margin-left: 5px;
+    border-radius: 50px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.todas h1 {
+
+width: 440px;
+height: 61px;
+margin-top: 120px;
+margin-left: 122px;
+margin-bottom: 10px;
+color: #FFA000;
+font-size: 50px;
+font-weight: 700;
+
+
+}
+
+.todas-receitas {
+
+    padding: 40px 0;
+    text-align: center;
+}
+
+
+.todas-receitas article {
+
+    display: inline-block;
+    padding: 30px;
+}
+
+.todas-receitas h3 {
+
+    font-size: 26px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.todas-receitas a {
+
+    background-color: #176902;
+    color: #fdfdfd;
+    padding: 10px 20px;
+    margin: 20px 0;
+    display: inline-block;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 768px ) {
+    #hero-header {
+        width: 100%;
+        text-align: justify;
+    }
+    
+
+}
+
+@media only screen and (max-width: 480px ) {
+    #hero-header {
+        width: 100%;
+        text-align: justify;
+    }
+    .hero-footer p {
+        max-width: 80%;
+        text-align: justify;
+    }
+    
+}
